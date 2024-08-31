@@ -1,0 +1,62 @@
+:root {
+    background-color: #FABC3F;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header__titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: #E85C0D;
+    font-family: "Nerko One";
+    font-weight: 600;
+}
+
+.titulo__primeiro {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #C7253E;
+    font-family: "New Amsterdam";
+}
+
+.texto__desc {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #821131;
+    font-family: "New Amsterdam";
+    gap: 1.5px 0;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #2E073F;
+    font-family: "Handjet";
+    flex: 2; /* Garante que o corpo ocupe o espaço disponível, empurrando o footer para baixo */
+}
+
+.container__footer {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+    font-family: "Handjet";
+    margin-top: auto; /* Empurra o footer para a parte inferior */
+    color: #161D6F;
+
+}
+
+@media screen and (max-width: 390px) {
+    
+
+}
+
